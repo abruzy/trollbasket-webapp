@@ -53,7 +53,7 @@ const NavBar = () => {
       {navLinks.map(({ id, icon, text, path }) => (
         <NavLink key={id} to={path} className='flex flex-col items-center'>
           {icon}
-          <p className='mt-2 text-gray1 text-sm font-normal'>{text}</p>
+          <p className='mt-2 text-gray2 text-sm font-normal'>{text}</p>
         </NavLink>
       ))}
     </nav>
